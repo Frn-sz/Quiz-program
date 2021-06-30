@@ -5,6 +5,25 @@ h1.title{
  
  
 
-} body{
+} .header{
     background-color: 	#BC8F8F;
+    margin:0;
+} p1{
+
+    margin: 150;
+
+
+}p2{
+
+    margin: 150;
+    
+}input.sas{
+    border-radius: 2px;
+    margin-left: 150;
+    margin-top:200;
+} .rodapé{
+   
+    background-color: lightblue;
+    margin-top:686px;
+    position:absolute;
 }
