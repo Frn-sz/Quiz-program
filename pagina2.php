@@ -34,7 +34,30 @@
 <br>
 <br>
 
-<br>Questão 2:
+<br>Questão 2: O gráfico abaixo mostra a variação na pressão sanguínea e na velocidade do sangue em diferentes vasos do sistema circulatório humano.
+<!--colocar a imagem-->
+<br><br>
+Qual das alternativas correlaciona corretamente as regiões I, II e III do gráfico com o tipo de vaso sanguíneo?
+<br><br>
+<table>
+    <tr>
+        <th> </th> <th> I </th> <th> II </th> <th> III </th> 
+    </tr>
+    <tr>
+        <td> a) </td> <td> veia </td> <td> artéria </td> <td> capilar </td>
+    </tr>
+    <tr>
+        <td> b) </td> <td> artéria </td> <td> veia </td> <td> capilar </td>
+    </tr>
+    <tr>
+        <td> c) </td> <td> artéria </td> <td> capilar </td> <td> veia </td>
+    </tr>
+    <tr>
+        <td> d) </td> <td> artéria </td> <td> veia </td> <td> artéria </td>
+    </tr>
+
+
+</table>
 <br>
 <br>
 <input type = "radio" name = "x2" value = "1"/> Alternativa A
