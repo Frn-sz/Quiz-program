@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
     <title>Quiz</title>
 </head>
 
@@ -26,53 +25,53 @@
 
    if($x1 == 2){
        $r++;
-
    }
-    if($x2 == 3 ){
+
+   if($x2 == 3){
      $r++;
    }
+
    if($x3 == 1){
     $r++;
-  }
+   }
 
-  if($x4 == 4){
+   if($x4 == 4){
     $r++;
-  }
+   }
 
-  if($x5 ==  2){
+   if($x5 == 2){
     $r++;
-  }
+   }
 
-  if($x6 == 2){
+   if($x6 == 2){
     $r++;
-  }
+   }
 
-  if($x7 == 1 ){
+   if($x7 == 1){
     $r++;
-  }
+   }
 
-  if($x8 == 2){
+   if($x8 == 2){
     $r++;
-  }
+   }
 
-  if($x9 == 1 ){
+   if($x9 == 1){
     $r++;
-  }
+   }
 
-  if($x10 == 2 ){
+   if($x10 == 2){
     $r++;
-  }
+   }
 
+   if($r >= 7){
 
-if($r >= 7){
+    echo "Parabéns, seu desempenho foi de $r acertos, muito bem!"; //colocar a img feliz
+   }
 
-    echo "Parabéns, seu desempenho foi de $r acertos, muito bem!";
-}
+   if($r < 7){
 
- if($r < 7){
-
-    echo "Infelizmente sua nota foi de $r acertos, mais sorte na próxima vez.";
- }
+    echo "Infelizmente sua nota foi de $r acertos, mais sorte na próxima vez."; //colocar a img triste
+   }
    ?>
 </body>
 </html>
