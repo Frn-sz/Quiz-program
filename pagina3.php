@@ -7,7 +7,13 @@
 
 <body>
 
+
+
    <?php
+   
+
+   $n = $_POST['nome'];
+   $c = $_POST['cpf'];
 
    $r = 0;
 
@@ -62,16 +68,24 @@
    if($x10 == 2){
     $r++;
    }
+  
+  
+
 
    if($r >= 7){
-
-    echo "Parabéns, seu desempenho foi de $r acertos, muito bem!"; //colocar a img feliz
+ 
+    echo "$n, CPF: $c parabéns, seu desempenho foi de $r acertos, muito bem!"; //colocar a img feliz
    }
 
    if($r < 7){
-
-    echo "Infelizmente sua nota foi de $r acertos, mais sorte na próxima vez."; //colocar a img triste
+    
+    echo "$n, CPF: $c, infelizmente sua nota foi de $r acertos, mais sorte na próxima vez."; //colocar a img triste
    }
+
+ 
    ?>
+  
+ 
+
 </body>
 </html>
