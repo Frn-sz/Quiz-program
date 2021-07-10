@@ -15,17 +15,19 @@
 
 <body>
 
-    <h1 class = "title">Quiz</h1>
+    <div id = "all">
+    <div id = "imagem" ><img src="res/QUIZ.jpg" height=300/> </div>
+    <br> <br> <br> <br> <br> <br> 
   
-  <div id = "imagem" ><img src="res/gato.jpg" height=300/> </div>
+  
 
   <form action = "pagina2.php" method = "post">
 
-        <p1>Nome:<input type = "text" name = "nome" placeholder = "Insira seu nome completo"/></p>
+        <div id = "name">Nome: <input type = "text" name = "nome" placeholder = "Insira seu nome completo" required/></div>
 
         <br> <br><br><br>
 
-        <p2>CPF: <input type="text" id="cpf" name="cpf" placeholder = "Apenas números"/> </p>
+        <div id = "c"> CPF: &nbsp;<input type="text" id="cpf" name="cpf" placeholder = "Apenas números" required/> </div>
 
         <br><br><br><br>
 
@@ -35,5 +37,6 @@
 
 <div id = "integrantes"> Cilmara Teixeira Miralha e Fernando Gonçalves de Medeiros INFO 21 </div>
 
+</div>
 </body>
 </html>

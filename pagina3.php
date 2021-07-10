@@ -6,7 +6,10 @@
 </head>
 
 <body>
+<link rel="stylesheet" type="text/css" href="stylesheet3.css" media="screen"/>
 
+
+<div id = "result"> Resultado do Quiz  </div>
 
 
    <?php
@@ -69,23 +72,56 @@
     $r++;
    }
   
+   $txacerto = ($r *10);
   
-
-
+  
    if($r >= 7){
- 
-    echo "$n, CPF: $c parabéns, seu desempenho foi de $r acertos, muito bem!"; //colocar a img feliz
+
+    $desempenho = "bom";
+
+   }if($r < 7){
+
+    $desempenho = "ruim";
    }
 
-   if($r < 7){
+
+?>
+
+<div id = "rbom">
+
+<?php
+
+   if($r >= 7){
     
-    echo "$n, CPF: $c, infelizmente sua nota foi de $r acertos, mais sorte na próxima vez."; //colocar a img triste
+    echo "$n, CPF: $c parabéns, seu desempenho foi de $txacerto%, muito bem!"; 
+    
+   }
+
+  ?>
+
+  </div>
+
+<br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+  <div id = "imagem"> <img src="res/<?php echo "$desempenho";?>.gif"> </div>
+
+
+  <div id = "ruim">
+    
+
+  <?php
+
+   if($r < 7){
+
+    echo "$n, CPF: $c, infelizmente sua nota foi de $txacerto%, mais sorte na próxima vez."; //colocar a img triste
    }
 
  
    ?>
-  
- 
+   </div>
+   
+   <div id = "integrantes"> Cilmara Teixeira Miralha e Fernando Gonçalves de Medeiros INFO 21 </div>
 
 </body>
 </html>

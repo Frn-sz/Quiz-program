@@ -1,3 +1,38 @@
 table, th, td {
     border: 1px solid #000;
-  }
+  } body{
+
+    background: #dcdcdc;
+  } #titulo{
+ background-color: white;
+ width: 20%;
+ border-radius: 5px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  }input[type = "submit"]{
+
+     font-size: large;
+
+  }  #integrantes{
+    text-align: center;
+    background-color: white;
+  border-radius: 3px;
+  width: 70%;
+  margin-left: 300px;
+  font-size: x-large;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} #perguntas{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0,0,0);
+} #quizimg {
+ position: absolute;
+  margin-left: 1750px;
+  margin-top: -50px;
+}#titulo2{
+  background-color: white;
+ width: 20%;
+ border-radius: 5px;
+}
