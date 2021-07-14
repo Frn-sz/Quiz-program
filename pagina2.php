@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Quiz</title>
 </head>
+
+<main>
+    
+</main>
 <body>
     
 <link rel="stylesheet" type="text/css" href="stylesheet2.css" media="screen"/>

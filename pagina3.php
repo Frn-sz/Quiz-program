@@ -112,7 +112,7 @@
 
   <?php
 
-   if($r < 7){
+   if($r < 7){  
 
     echo "$n, CPF: $c, infelizmente sua nota foi de $txacerto%, mais sorte na próxima vez."; //colocar a img triste
    }
